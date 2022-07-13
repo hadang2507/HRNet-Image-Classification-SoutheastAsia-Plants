@@ -142,7 +142,6 @@ def main():
 
     # Data loading code
     traindir = "/content/drive/MyDrive/HRNet-Image-Classification/data/images/train"
-    valdir = "/content/drive/MyDrive/HRNet-Image-Classification/data/images/train" #Using train data to validate is a bad idea!!!
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                      std=[0.229, 0.224, 0.225])
 
